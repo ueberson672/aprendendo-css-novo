@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 0px;
+    background: #222;
+    align-items: center;
+
+    & .box {
+        border-radius: 8px;
+        background-color: rgb(152, 32, 175);
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+div {
+    padding: 100px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* efeito parallax */
+}
+.mk3, .mk4 {
+color: #fff;
+}
+p {
+    margin-top: 30px;
+}
+.mk3 {
+    background-image: url("./golf\ mk3.jpg");
+}
+.mk4 {
+    background-image: url("./golf\ mk4.jpg");
+}
+.mk5 {
+    background-image: url("./golf\ mk5.jpg");
+}
